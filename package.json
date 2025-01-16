@@ -1,0 +1,20 @@
+{
+  "name": "minibench",
+  "version": "1.0.0",
+  "scripts": {
+    "extract": "node extract.js",
+    "filter": "node filter.js",
+    "generate": "node generate.js",
+    "repair": "node repair.js",
+    "benchmark": "node benchmark.js",
+    "clean": "node clean.js"
+  },
+  "author": "McDj26",
+  "license": "Apache-2.0",
+  "description": "",
+  "dependencies": {
+    "colors-console": "^1.0.3",
+    "dotenv": "^16.4.7",
+    "openai": "^4.78.1"
+  }
+}
